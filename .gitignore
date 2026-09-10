@@ -1,0 +1,22 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Data: excluded entirely. Both source datasets are public -- see README
+# for exact sourcing instructions. Nothing under data/ is redistributed here.
+data/
+
+# All generated outputs -- excluded entirely, scripts-only repository
+results/
+
+# Excluded from repo: personal notebook, submission materials, notebook-derived results
+Exploration.ipynb
+Submission/
+immune_signature_response_statistics.csv
+immune_signatures_response_comparison.pdf
+immune_signatures_response_comparison.png
+IMvigor_AMIA_Manuscript.docx
+results_snapshot.zip
+analysis_spec.md
