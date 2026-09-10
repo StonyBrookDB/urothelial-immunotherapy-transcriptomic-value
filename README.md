@@ -128,10 +128,6 @@ python3 scripts/build_table1.py
 
 ## Verification
 
-Analysis choices were prespecified in `analysis_spec.md` before results were examined.
-Where deviations occurred, they are documented in-line in the relevant script's docstring
-and in the manuscript's Methods, not silently applied.
-
 Cross-validation folds are generated once (`cv_splits.pkl`) and reused by every script
 that compares feature blocks on the same cohort, so all comparisons in the primary
 analysis and redundancy gradient share identical outer/inner splits. All preprocessing
